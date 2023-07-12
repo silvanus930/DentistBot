@@ -14,6 +14,9 @@ import {
 } from "./components";
 
 import "./bot.css"
+import InitializeGoogleAnalytics from "./utils/googleAnalytics";
+
+InitializeGoogleAnalytics('G-W2C12EP6PV');
 
 const App = () => {
 
